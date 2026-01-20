@@ -146,21 +146,27 @@
             <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0" id="navigation">
               <ul class="navbar-nav navbar-nav-hover ms-auto">
                 <li class="nav-item dropdown dropdown-hover mx-2">
-                  <a href="#informacion" class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuPages" aria-expanded="false">
+                  <a href="#informacion" class="nav-link ps-2 d-flex cursor-pointer align-items-center" aria-expanded="false">
                     <i class="material-icons opacity-6 me-2 text-md"></i> 
                     Información
                   </a>
                 </li>
                 <li class="nav-item dropdown dropdown-hover mx-2">
-                  <a href="#testimonios" role="button" class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuPages" aria-expanded="false">
+                  <a href="#testimonios" role="button" class="nav-link ps-2 d-flex cursor-pointer align-items-center" aria-expanded="false">
                     <i class="material-icons opacity-6 me-2 text-md"></i> 
                     Testimonios
                   </a>
                 </li>
                 <li class="nav-item dropdown dropdown-hover mx-2">
-                  <a href="https://www.meditacionchile.org/metodo-de-meditacion.html" role="button" class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuPages" aria-expanded="false">
+                  <a href="https://www.meditacionchile.org/metodo-de-meditacion.html" role="button" class="nav-link ps-2 d-flex cursor-pointer align-items-center" aria-expanded="false">
                     <i class="material-icons opacity-6 me-2 text-md"></i> 
                     Meditar
+                  </a>
+                </li>
+                <li class="nav-item dropdown dropdown-hover mx-2">
+                  <a href="empresas.html" role="button" class="nav-link ps-2 d-flex cursor-pointer align-items-center" aria-expanded="false">
+                    <i class="material-icons opacity-6 me-2 text-md"></i> 
+                    Empresas
                   </a>
                 </li>
               </ul>
@@ -179,13 +185,13 @@
   <!-- -------- START HEADER 1 w/ text and image on right ------- -->
   <header>
     <!--<div class="page-header min-vh-75" style="background-image: url('https://images.unsplash.com/photo-1520769945061-0a448c463865?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');" loading="lazy"> -->
-       <div class="page-header min-vh-100" style="background-image: url('assets/img/fondo_web.jpg');" loading="lazy">
-      <span class="mask bg-gradient-dark opacity-5"></span>
+       <div class="page-header min-vh-100" style="background-image: url('assets/img/fondo_web.jpg'); background-size: cover; background-position: center center;" loading="lazy">
+      <span class="mask bg-gradient-dark opacity-7"></span>
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-7 d-flex justify-content-center text-md-start text-center flex-column mt-sm-0 mt-7">
             <h1 class="text-white">Aprender a Meditar</h1>
-            <h2 class="lead pe-md-5 me-md-5 text-white opacity-8">Clases de meditación presenciales todos los días.</h2>
+            <h2 class="lead pe-md-5 me-md-5 text-white opacity-9">Encuentra calma, claridad y menos estrés en tu día a día.</h2>
             <div class="buttons">
               <a href="https://wa.me/56990426880?text=Hola,%20quiero%20saber%20más...%20" class="btn bg-gradient-success mt-4" aria-label="Abrir chat de WhatsApp con Meditación Chile"><i class="fa fa-whatsapp fa-lg"></i> Escríbenos al WhatsApp</a>
             </div>
@@ -202,51 +208,82 @@
 
 <section id="informacion" class="py-6">
   <div class="container">
+    <div class="row mb-5 text-center">
+      <div class="col-lg-8 mx-auto">
+        <h2 class="mb-3">Información y horarios</h2>
+        <p class="lead">
+          Ven a conocernos a nuestro centro en La Reina o escríbenos para agendar tu primera sesión guiada.
+        </p>
+      </div>
+    </div>
     <div class="row align-items-center">
-      <div class="col-lg-6">
-        <div class="row justify-content-start">
-          <div class="col-md-6">
-            <div class="info">
-              <i class="material-icons text-3xl text-gradient text-info mb-3">map</i>
-              <h5>¿Dónde estamos?</h5>
-              <h6>Monseñor Edwards 1047, La Reina, Santiago.</h6>
+      <div class="col-lg-7">
+        <div class="row g-3">
+          <div class="col-sm-6 mb-3">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <div class="icon icon-shape bg-gradient-info shadow text-center border-radius-xl mb-3">
+                  <i class="material-icons text-white">map</i>
+                </div>
+                <h5>¿Dónde estamos?</h5>
+                <p class="mb-0">
+                  Monseñor Edwards 1047<br>
+                  La Reina, Santiago.
+                </p>
+              </div>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="info">
-              <i class="material-icons text-3xl text-gradient text-info mb-3">self_improvement</i>
-              <h5>¿Recién comenzando? ¡No te preocupes!</h5>
-              <h6>Todas nuestras sesiones son guiadas.</h6>
+          <div class="col-sm-6 mb-3">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <div class="icon icon-shape bg-gradient-success shadow text-center border-radius-xl mb-3">
+                  <i class="material-icons text-white">self_improvement</i>
+                </div>
+                <h5>¿Recién comenzando?</h5>
+                <p class="mb-0">
+                  No necesitas experiencia previa.<br>
+                  Todas nuestras sesiones son guiadas.
+                </p>
+              </div>
             </div>
           </div>
-          
-        </div>
-        <div class="row justify-content-start mt-4">
-          <div class="col-md-6">
-            <div class="info">
-              <i class="material-icons text-3xl text-gradient text-info mb-3">schedule</i>
-              <h5>Lunes a Viernes:</h5>
-              <h6>09:30</h6>
-              <h6>11:00</h6>
-              <h6>17:00</h6>
-              <h6>18:00</h6>
-              <h6>19:00</h6>
-              <h6>20:00</h6>
+          <div class="col-sm-6 mb-3">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-xl mb-3">
+                  <i class="material-icons text-white">schedule</i>
+                </div>
+                <h5 class="mb-2">Lunes a viernes</h5>
+                <p class="mb-0 small">
+                  09:30 · 11:00 · 17:00 · 18:00 · 19:00 · 20:00
+                </p>
+              </div>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="info">
-              <i class="material-icons text-3xl text-gradient text-info mb-3">more_time</i>
-              <h5>Sábados</h5>
-              <h6>11:00</h6>
-              <h6>17:00</h6>
+          <div class="col-sm-6 mb-3">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <div class="icon icon-shape bg-gradient-warning shadow text-center border-radius-xl mb-3">
+                  <i class="material-icons text-white">more_time</i>
+                </div>
+                <h5 class="mb-2">Sábados</h5>
+                <p class="mb-0 small">
+                  11:00 · 17:00
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-lg-4 ms-auto mt-lg-0 mt-4">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53268.33245086605!2d-70.59309017245793!3d-33.442251234609756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662ce4577d7496d%3A0x2c16587da5d38867!2sMeditaci%C3%B3n%20Chile!5e0!3m2!1ses-419!2scl!4v1734015158570!5m2!1ses-419!2scl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="col-lg-5 ms-auto mt-lg-0 mt-5">
+        <div class="card shadow-lg border-radius-xl overflow-hidden">
+          <div class="card-body p-0">
+            <div class="ratio ratio-4x3">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53268.33245086605!2d-70.59309017245793!3d-33.442251234609756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662ce4577d7496d%3A0x2c16587da5d38867!2sMeditaci%C3%B3n%20Chile!5e0!3m2!1ses-419!2scl!4v1734015158570!5m2!1ses-419!2scl" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
           </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
