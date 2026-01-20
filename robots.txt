@@ -1,0 +1,10 @@
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.meditacionchile.org/sitemap.xml
